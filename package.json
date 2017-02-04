@@ -1,0 +1,15 @@
+{
+  "name": "pla",
+  "version": "0.1.0",
+
+  "scripts": {
+    "webpack": "webpack --progress --colors"
+  },
+
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "webpack": "^2.2.1"
+  }
+}
