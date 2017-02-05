@@ -1,6 +1,8 @@
+.DS_Store
 bin
 obj
-data
+sqlite3
+*.db
 .vscode
 node_modules
 bundle.js
