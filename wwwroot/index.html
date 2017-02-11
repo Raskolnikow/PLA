@@ -3,10 +3,36 @@
 <head>
   <title>Personal Learning Assistant</title>
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
-  <h2>Server is up and runnig...</h2>
+  <div class="container body-content">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">PLA</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Main</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  
+  <div class="jumbotron">
+		<h1>Back to School</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<button class="btn btn-warning">Start</button>
+	</div>
+  
+    <div class="container">
+      <div class="col-md-8" id="content"></div>
+    </div>
+      
+  </div>
 
   <script src="bundle.js"></script>
 </body>
